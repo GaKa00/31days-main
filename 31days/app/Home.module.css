@@ -1,0 +1,67 @@
+/* src/pages/Home.module.css */
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  height: 100vh; /* Full height */
+  padding: 20px;
+  background-color: #121212; /* Dark background for a spooky effect */
+  color: #f0f0f0; /* Light text for contrast */
+  font-family: 'Courier New', Courier, monospace; /* Monospace for horror vibes */
+}
+
+.homeTitle {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.8); /* Red glow effect */
+}
+
+.spookyCard {
+  background-color: rgba(30, 30, 30, 0.8); /* Slightly transparent dark card */
+  border: 2px solid #ff0000; /* Red border for a horror feel */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cardTitle {
+  color: #ff4040; /* Light red for the title */
+}
+
+.footer {
+  margin-top: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+.nameForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nameInput {
+  padding: 10px;
+  border: 1px solid #ff0000; /* Red border for the input */
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1); /* Light background for input */
+  color: #f0f0f0; /* Light text */
+  width: 80%; /* Width of input */
+  margin-bottom: 10px;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  background-color: #ff0000; /* Red background for button */
+  color: white; /* White text for button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #ff4d4d; /* Lighter red on hover */
+}

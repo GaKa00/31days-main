@@ -1,0 +1,81 @@
+.calendarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.calendarTitle {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.8);
+}
+
+.doorsContainer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.door {
+  background-color: rgba(30, 30, 30, 0.8);
+  border: 2px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.door-open {
+  background-image: url('/path-to-movie-poster.jpg'); /* Placeholder */
+  background-size: cover;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.door:hover {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1a1a1a;
+  border: 3px solid #ff0000;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.7);
+  width: 90%;
+  max-width: 600px;
+}
+
+.modal h2 {
+  color: #ff4040;
+}
+
+.modal img {
+  width: 100%;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.modal p {
+  margin: 10px 0;
+}
+
+.profileLink {
+  cursor: pointer;
+}
+
+.profileLink:hover {
+  text-decoration: underline;
+}
